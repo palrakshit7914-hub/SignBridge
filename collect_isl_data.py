@@ -104,7 +104,7 @@ def draw_overlay(
 
 def prompt_for_label() -> str:
     while True:
-        label = input("\nEnter gesture label (e.g., Help, Question, Yes, No): ").strip()
+        label = input("\nEnter gesture label (e.g., Question,Answer, Time, Place): ").strip()
         if label:
             return label
         print("Label cannot be empty. Please try again.")
